@@ -14,10 +14,11 @@ body{
 }
 
 .resume{
-	width: 800px;
+	width: 840px;
 	background: rgb(212, 210, 210);
 	margin: 25px auto;
 	display: flex;
+	text-align: justify;
 }
 
 .left{
@@ -69,7 +70,7 @@ body{
 
 .left .icon{
 	font-size: 20px;
-	color: #a376ca;
+	color: #111111;
 }
 
 .left .text{
@@ -111,8 +112,8 @@ body{
 
 .skills .li_wrap,
 .hobbies .li_wrap{
-	width: 65px;
-	height: 70px;
+	width: 80px;
+	height: 90px;
 	margin-bottom: 15px;
 	border-radius: 15px;
 	display: flex;
@@ -128,6 +129,7 @@ body{
 .skills .li_wrap .text,
 .hobbies .li_wrap .text{
 	margin-top: 5px;
+	margin-left: 8px;
 }
 
 .hobbies .li_wrap{
@@ -145,7 +147,7 @@ body{
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #9153c9;
+	color: #111111;
 }
 
 .skills-section ul li{
@@ -165,7 +167,7 @@ body{
     height: 100%;
     position: absolute;
     left: 0;
-    background-color: #a376ca;
+    background-color: #111111;
     border-radius: 2px;
 }
 .js-progress{
@@ -237,7 +239,7 @@ body{
 
 .right_inner .li_wrap .date {
     width: 125px;
-    color: #9153c9;
+    color: #111111;
 }
 
 .right_inner .li_wrap .info{
@@ -250,7 +252,7 @@ body{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 2px;
-	color: #9153c9;
+	color: #CBA210;
 }
 
 .right_inner .li_wrap .info_com{
@@ -270,7 +272,7 @@ body{
 	left: 0;
 	width: 10px;
 	height: 10px;
-	background: #9153c9;
+	background: #111111;
 	border-radius: 50%;
 }
 
@@ -281,5 +283,5 @@ body{
 	left: 4px;
 	width: 2px;
 	height: 90%;
-	background: #9153c9;
+	background: #111111;
 }
